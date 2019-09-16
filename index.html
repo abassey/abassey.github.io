@@ -36,7 +36,63 @@
 <![endif]-->
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar-default" data-offset="100">
+    
+    <!-- Page Preloader -->
+    <div id="loading-page">
+        <div id="loading-center-page">
+            <div id="loading-center-absolute">
+                <div class="loader"></div>
+            </div>
+        </div>
+    </div>
+
+    <!--header-->
+    <header>
+        <div class="navbar navbar-default navbar-fixed-top affix-top" role="navigation" data-spy="affix" data-offset-top="50">
+            <div class="container">
+
+                <!--Mobile navigation-->
+                <div class="navbar-header">
+
+                    <button type="button" class="navbar-toggle dropdown-button waves-effect waves-teal btn-flat" data-toggle="collapse" data-target="#navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+                    <!--Logo-->
+
+                    <a class="navbar-brand logo" href="">
+            <img src="assets/images/Logo.png"  alt="" title="">
+          </a>
+                </div>
+
+                <!--Links Menu-->
+                <div class="navbar-collapse collapse" id="navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right navigation-links">
+                        <li class="active active-link">
+                            <a data-scroll="" href="#home" class="section-scroll">Home</a>
+                        </li>
+
+                        <li>
+                            <a data-scroll="" href="#about" class="section-scroll">About</a>
+                        </li>
+                        <li>
+                            <a data-scroll="" href="#projects" class="section-scroll">Projects</a>
+                        </li>
+                        <li>
+                            <a data-scroll="" href="#resume" class="section-scroll">Resume</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+    <!--Header-->
+
 
     <p>Watch this space!</p>
 </body>
